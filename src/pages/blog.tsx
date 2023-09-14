@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const Blog = ({ data }) => {
   return (
@@ -25,11 +26,8 @@ query {
 }
 `
 export default Blog;
-export const Head = () => {
-  <>
-    <title>Blog</title>
-    <meta name="description" content="its about gatsby Tutorial Blog page" />
-  </>
-}
+export const Head = () => (
+  <Seo title="Blog Page" />
+)
 
 
