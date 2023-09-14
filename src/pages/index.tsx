@@ -10,7 +10,7 @@ const IndexPage = () => {
     <Layout pageTitle="Welcome to Kiran's Blog">
       <p>I am making it to learn Gatsby</p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        alt="Nature beauty"
         src="https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg"
       />
     </Layout>
